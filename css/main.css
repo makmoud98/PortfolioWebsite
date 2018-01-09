@@ -1,0 +1,55 @@
+h1, h3, h4, h5, p {
+    color: #222222;
+}
+
+h2 {
+    color: #115522;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.line {
+    border-style: solid;
+    border-width: 3px;
+    color: #115522;
+    width: 100%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.clear {
+    clear: left;
+}
+
+.work {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (min-width: 0) and (max-width: 417px) {
+    .right {
+        float: left;
+    }
+}
+
+@media screen and (min-width: 1048px) {
+    .banner {
+        height: 400px;
+    }
+}
