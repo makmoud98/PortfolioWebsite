@@ -6,6 +6,14 @@ h2 {
     color: #115522;
 }
 
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    flex: 1;
+}
+
 .logo {
     margin: 20px;
 }
@@ -31,6 +39,7 @@ h2 {
 
 .center {
     text-align: center;
+    width: 100%;
 }
 
 .clear {
@@ -38,6 +47,8 @@ h2 {
 }
 
 .work {
+    width: 90%;
+    height: auto;
     margin-left: 20px;
     margin-right: 20px;
 }
