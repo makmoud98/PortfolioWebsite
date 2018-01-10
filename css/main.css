@@ -1,4 +1,4 @@
-h1, h3, h4, h5, p {
+h1 {
     color: #222222;
 }
 
@@ -6,10 +6,38 @@ h2 {
     color: #115522;
 }
 
+h3 {
+    color: #222222;
+}
+
+h4 {
+    color: #222222;
+}
+
+h5 {
+    color: #222222;
+}
+
+p {
+    color: #222222;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
 .flex-grid {
     display: flex;
     flex-wrap: wrap;
 }
+
+.col-wide {
+    flex: 1 100%
+    width: 100%;
+}
+
 .col {
     flex: 1;
 }
@@ -18,23 +46,17 @@ h2 {
     margin: 20px;
 }
 
-.banner {
-    width: 100%;
+.name {
+    text-align: right;
 }
 
 .line {
-    border-style: solid;
-    border-width: 3px;
-    color: #115522;
+    border: 3px solid #115522;
     width: 100%;
 }
 
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
+.banner {
+    width: 100%;
 }
 
 .center {
@@ -42,25 +64,9 @@ h2 {
     width: 100%;
 }
 
-.clear {
-    clear: left;
-}
-
 .work {
     width: 90%;
     height: auto;
     margin-left: 20px;
     margin-right: 20px;
-}
-
-@media screen and (min-width: 0) and (max-width: 417px) {
-    .right {
-        float: left;
-    }
-}
-
-@media screen and (min-width: 1048px) {
-    .banner {
-        height: 400px;
-    }
 }

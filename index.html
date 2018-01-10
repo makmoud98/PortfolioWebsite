@@ -8,17 +8,30 @@
     </head>
     <body>
         <header>
-            <img class="left logo" src="img/logo.png" alt="Udacity logo"/>
-            <div class="right">
-                <h1>Michael Elnajami</h1>
-                <h5>Programming Fanatic</h5>
+            <div class="header">
+                <div class="col">
+                    <img class="logo" src="img/logo.png" alt="Udacity logo"/>
+                </div>
+                <div class="col name">
+                    <h1>Michael Elnajami</h1>
+                    <h5>Programming Fanatic</h5>
+                </div>
             </div>
             <hr class="line"/>
         </header>
         <main>
-            <img class="banner left" src="img/banner.jpg" alt="binary numbers">
-            <h2 class="left">Featured Work</h2>
-            <div class="clear left flex-grid center">
+            <!-- the banner is actually meant to stretch when
+                the screen size is >1048. (see my media query)
+                the reason i did this was because when the image
+                began scaling at that resolution it started taking
+                up >50% of the whole page. because i wanted users
+                to be able to see the "featured works" without
+                having to scroll down i forced its size to 400px
+                for now, i will just leave it at 100% because
+                i think what i did might not be the best solution -->
+            <img class="banner" src="img/banner.jpg" alt="javascript code">
+            <h2>Featured Work</h2>
+            <div class="flex-grid center">
                 <div class="col">
                     <a href="https://github.com/makmoud98/PlayerHeads" target="_blank">
                         <img class="work" src="img/playerheads.png" alt="player with custom head">
